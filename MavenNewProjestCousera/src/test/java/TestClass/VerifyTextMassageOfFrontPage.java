@@ -31,7 +31,8 @@ public class VerifyTextMassageOfFrontPage {
 	 @BeforeMethod
 	 public void GoToTheFrontPage() {
 	       System.out.println("Before Method");
-	       //driver = new ChromeDriver();
+	       System.out.println("Before Method1");
+	          //driver = new ChromeDriver();
 	 	   driver. get("https://www.coursera.org");
 	 	   FrontPage frontPage = new FrontPage (driver);
 	 	   //frontPage.clickJoinForFree();
